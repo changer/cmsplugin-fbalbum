@@ -1,16 +1,20 @@
 # Facebook Album Plugin - Django CMS
 
-This is gallery plugin with support for Facebook Albums. It is great to use facebook for storing images and you save in terms of your server storage and ther user has a liberty to add or remove images without even dealing with anything else.
+This is gallery plugin with support for Facebook Album. You should use it because :
+- It uses facebook for storing images and saves your valuable media storage. 
+- Your Client/User has a liberty to add or remove images from facebook and it gives better experience to them.
+- Images recieved from facebook are cropped to lower size without considerable loss in quqlity.
+- Image are presented in convenient thumbnail, which on clicking would open up in carousel or lightbox.
 
-Image are presented in thumbnails, which on clicking would open up in carousel or lightbox.
 
 #Installation
 
 Installation is dead simple. First start your virtualenv
 
-    $ workon sample
-    (sample)$ pip install cmsplugin-fbalbum
-
+```bash
+$ workon sample
+(sample)$ pip install cmsplugin-fbalbum
+```
 After installation, add `'cmsplugin_fbalbum'` to `settings.py`
 
 ```python
@@ -23,9 +27,10 @@ INSTALLED_APPS = (
 
 You might need to do this if you are getting some sort of database error.
 
-    python manage.py syncdb
-    python manage.py migrate
-
+```bash
+$ python manage.py syncdb
+$ python manage.py migrate
+```
 In case you face any problems, file issues and if you want to contribute take a look at 
 the existing issues and send a pull request.
 
