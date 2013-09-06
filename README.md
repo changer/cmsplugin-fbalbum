@@ -25,7 +25,7 @@ INSTALLED_APPS = (
 )
 ```
 
-You might need to do this if you are getting some sort of database error.
+You might need to migrate your database to avoid database errors, you can do it with the commands below:
 
 ```bash
 $ python manage.py syncdb
