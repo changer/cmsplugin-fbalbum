@@ -1,5 +1,8 @@
 # Facebook Album Plugin - Django CMS
 
+.. image:: https://pypip.in/d/cmsplugin-fbalbum/badge.png
+        :target: https://crate.io/packages/cmsplugin-fbalbum
+
 This is gallery plugin with support for Facebook Album. You should use it because :
 - It uses facebook for storing images and saves your valuable media storage. 
 - Your Client/User has the liberty to add or remove images from facebook and it gives better experience to them.
